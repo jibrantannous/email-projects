@@ -1,0 +1,143 @@
+<mjml lang="en">
+
+    <mj-head>
+        <mj-title>Order Template 01</mj-title>
+        <mj-preview>Descripción del correo.</mj-preview>
+        <mj-breakpoint width="400px" />
+        <mj-attributes>
+            <mj-all font-family="Tahoma" />
+            <mj-class name="letter" line-height="25px" />
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body background-color="#eeeeee">
+
+        <mj-section full-width="full-width" padding-bottom="30px">
+        </mj-section>
+
+        <mj-section background-color="#044767">
+            <mj-column>
+                <mj-table>
+                    <tr>
+                        <td style="padding:10px;font-size:35px;width:60%;text-align:left;color:#fff;font-weight:bold;">Beretun</td>
+                        <td style="padding:10px;font-size:18px;width:40%;text-align:right;letter-spacing:3px;"><a href="https://google.com/" target="_blank" style="text-decoration:underline;color:#fff;">Shop now</a></td>
+                    </tr>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+        
+        <mj-section background-color="#fff" padding="50px 0 10px 0">
+            <mj-column>
+                <mj-image src="https://i.ibb.co/P58bvZg/check-icon.png" alt="Check icono" width="100px"/>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#fff" padding="0">
+            <mj-column>
+                <mj-text font-size="25px" color="#000" font-weight="bold" align="center">
+                    Thank You For Your Order!
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#fff" padding="10px">
+            <mj-column>
+                <mj-text font-size="16px" color="#626262" mj-class="letter">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum, lacus eget suscipit vehicula.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0">
+            <mj-column>
+                <mj-table container-background-color="#fff">
+                    <tr style="text-align:left;background-color:#eeeeee;">
+                        <th style="padding:10px;font-size:16px;width:70%;">Order Confirmation #</th>
+                        <th style="padding:10px;font-size:16px;width:30%;">2345678</th>
+                    </tr>
+                    <tr>
+                        <td style="padding:10px;font-size:16px;">Purcharsed Item (1)</td>
+                        <td style="padding:10px;font-size:16px;">$100.00</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:10px;font-size:16px;">Shipping + Handling</td>
+                        <td style="padding:10px;font-size:16px;">$10.00</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:10px;font-size:16px;">Salex Tax</td>
+                        <td style="padding:10px;font-size:16px;">$5.00</td>
+                    </tr>
+                </mj-table>
+                <mj-table container-background-color="#fff">
+                    <tr style="text-align:left;border-top:4px solid #eeeeee;border-bottom:4px solid #eeeeee">
+                        <th style="padding:10px;font-size:16px;width:70%;">TOTAL</th>
+                        <th style="padding:10px;font-size:16px;width:30%;">$115.00</th>
+                    </tr>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#fff" padding="10px 5px 20px 5px">
+            <mj-column>
+                <mj-text font-size="16px" font-weight="bold" padding-bottom="20px">
+                    Delivery Address
+                </mj-text>
+                <mj-text font-size="16px" padding-top="0">
+                    675 Massachusetts Avenue
+                </mj-text>
+                <mj-text font-size="16px" padding-top="0">
+                    11th Floor
+                </mj-text>
+                <mj-text font-size="16px" padding-top="0">
+                    Cambridge, MA 02139
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text font-size="16px" font-weight="bold" padding-bottom="20px">
+                    Estimated Delivery Date
+                </mj-text>
+                <mj-text font-size="16px" padding-top="0">
+                    January 1st, 2016
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-hero background-color="#1b9ba3" padding="50px 10px 50px 10px">
+            <mj-text font-size="25px" padding-top="10px" color="#fff" align="center">
+                Get 25% off your next order.
+            </mj-text>
+            <mj-button href="https://google.com/" align="center" background-color="#67b3b8" font-size="20px">
+                Awesome
+            </mj-button>
+        </mj-hero>
+
+        <mj-section background-color="#fff" padding-bottom="0">
+            <mj-column >
+                <mj-image src="https://i.ibb.co/T0YLCxt/logo.png" alt="Logotipo" width="50px" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#fff" padding-top="10px">
+            <mj-column >
+                <mj-text font-size="18px" font-weight="bold" align="center" padding="5px 10px 0 10px">
+                    675 Massachusetts Avenue
+                </mj-text>
+                <mj-text font-size="18px" font-weight="bold" align="center" padding="5px 10px 0 10px">
+                    Cambridge, MA 02139
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#fff" padding-bottom="35px">
+            <mj-column>
+                <mj-text font-size="16px" color="#626262" mj-class="letter">
+                    If you didn't create an account using this email address, please ignore this email or <a href="https://google.com/" target="_blank" style="color:#1b9ba3;text-decoration:underline;">unsuscribe</a>.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section full-width="full-width" padding-bottom="30px">
+        </mj-section>
+
+    </mj-body>
+</mjml>

@@ -1,0 +1,196 @@
+<mjml lang="en">
+    
+    <mj-head>
+
+        <mj-title>Newsletter Template 01</mj-title>
+        <mj-preview>Descripción del correo.</mj-preview>
+        <mj-breakpoint width="650px" />
+
+        <mj-attributes>
+            <mj-all font-family="Tahoma" font-size="16px" />
+            <mj-class name="mjbody" background-color="#ffffff" width="700px"/>
+            <mj-class name="header" background-color="#ffffff" />
+            <mj-class name="header__title" align="center" letter-spacing="2px" font-weight="700" font-size="35px" padding-bottom="0" color="#002e67" />
+            <mj-class name="header__description" align="center" text-transform="uppercase" font-size="14px" color="#002e67" />
+        </mj-attributes>
+
+        <mj-style>
+            @media only screen and (max-width:650px) {
+                .hidden_on_mobile {
+                    display: none !important;
+                }
+                .fixPadding > table > tbody > tr > td {
+                    padding: 100px 20px 100px 20px !important;
+                }
+                .fixPadding2 > table > tbody > tr > td {
+                    padding: 50px 20px 50px 20px !important;
+                }
+                .centerText > div {
+                    text-align: center !important;
+                }
+            }
+        </mj-style>
+
+    </mj-head>
+
+    <mj-body mj-class="mjbody">
+
+        <mj-raw><!--====== HEADER ======--></mj-raw>
+        
+        <mj-section mj-class="header">
+            <mj-column>
+                <mj-text mj-class="header__title">
+                    Newsletter
+                </mj-text>
+                <mj-text mj-class="header__description">
+                    Modern dog magazine
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!--====== HERO SECTION ======--></mj-raw>
+
+        <mj-section background-color="#78b298" padding="0">
+            <mj-column width="33%">
+                <mj-table padding="0">
+                    <tr>
+                        <td>
+                            <img src="https://i.ibb.co/FqmH2M4/hero01-min.png" alt="Imagen" style="width:100%;display:block;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://i.ibb.co/2kHV85k/hero02-min.png" alt="Imagen" style="width:100%;display:block;" class="hidden_on_mobile">
+                        </td>
+                    </tr>
+                </mj-table>
+            </mj-column>
+            <mj-column width="67%" padding="100px 20px 40px 20px" css-class="fixPadding">
+                <mj-image src="https://i.ibb.co/LxKB2rR/announcement-icon.png" alt="Imagen" width="100px" align="left" padding="0" />
+                <mj-text padding="20px 0 0 0" font-size="35px" color="#ffffff" font-weight="700">
+                    We've got a surprise coming this month.
+                </mj-text>
+                <mj-text padding="30px 0 0 0" font-size="20px" color="#ffffff">
+                    Keep up with us on Instagram for a sneak peek.
+                </mj-text>
+                <mj-text padding="15px 0 0 0" font-size="14px" text-transform="uppercase" font-weight="700">
+                    <a href="https://venelance.com" style="text-decoration:none;color:#ffffff;border-bottom:2px solid #ffffff;">Check out our Instagram &#8594;</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!--====== MIDDLE SECTION ======--></mj-raw>
+
+        <mj-section background-color="#ffffff" padding="0" direction="rtl">
+            <mj-column width="33%">
+                <mj-table padding="0">
+                    <tr>
+                        <td>
+                            <img src="https://i.ibb.co/6RH8WM4/middle01-min.png" alt="Imagen" style="width:100%;display:block;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://i.ibb.co/TMMFGK8/middle03-min.png" alt="Imagen" style="width:100%;display:block;" class="hidden_on_mobile">
+                        </td>
+                    </tr>
+                </mj-table>
+            </mj-column>
+            <mj-column width="67%" padding="100px 20px 30px 20px" css-class="fixPadding">
+                <mj-image src="https://i.ibb.co/6r84Rff/dog-food-icon.png" alt="Imagen" width="100px" align="left" padding="0" />
+                <mj-text padding="20px 0 0 0" font-size="35px" color="#002e67" font-weight="700">
+                    Dog food nutrition.
+                </mj-text>
+                <mj-text padding="30px 0 0 0" font-size="20px" color="#002e67" line-height="25px">
+                    The best dog food for your canine companion should meet his nutritional needs. While most commercial dog food brands are specially formulated with at least...
+                </mj-text>
+                <mj-text padding="15px 0 0 0" font-size="14px" text-transform="uppercase" font-weight="700">
+                    <a href="#" style="text-decoration:none;color:#002e67;border-bottom:2px solid #002e67;">See our dry dog food &#8594;</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!--====== LAST SECTION ======--></mj-raw>
+
+        <mj-section padding="0" background-color="#f45b4f">
+            <mj-column background-color="#f45b4f" padding="70px 20px 30px 20px" width="34%" css-class="fixPadding2">
+                <mj-text padding="0" font-weight="700" font-size="20px" color="#ffffff" css-class="centerText">
+                    We're hiring!
+                </mj-text>
+                <mj-text padding="15px 0 0 0" color="#ffffff" font-size="18px" line-height="25px" css-class="centerText">
+                    Join our New York city based team.
+                </mj-text>
+                <mj-text padding="15px 0 0 0" font-size="14px" text-transform="uppercase" font-weight="700" css-class="centerText">
+                    <a href="#" style="text-decoration:none;color:#ffffff;border-bottom:2px solid #ffffff;">Check it now &#8594;</a>
+                </mj-text>
+            </mj-column>
+            <mj-column background-color="#000000" width="33%">
+                <mj-image src="https://i.ibb.co/hKpb4nt/last01-min.png" alt="Imagen" padding="0" css-class="hidden_on_mobile" />
+            </mj-column>
+            <mj-column background-color="#a0bec4" width="33%">
+                <mj-image src="https://i.ibb.co/gvHTYnS/last02-min.png" alt="Imagen" padding="0" css-class="hidden_on_mobile" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!--====== FINAL SECTION ======--></mj-raw>
+
+        <mj-section background-color="#002e67">
+            <mj-group width="67%">
+                <mj-column width="50%">
+                    <mj-text color="#ffffff">
+                        <p style="font-weight:700;font-size:18px;">Phone</p>
+                        <p>(888) 330-0781</p>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%">
+                    <mj-text color="#ffffff">
+                        <p style="font-weight:700;font-size:18px;">Email</p>
+                        <p>info@moderndog.com</p>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+            <mj-column width="33%" css-class="hidden_on_mobile">
+                <mj-text color="#ffffff">
+                    <p style="font-weight:700;font-size:18px;">Twitter</p>
+                    <p>@moderndog</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!--====== FOOTER ======--></mj-raw>
+
+        <mj-section>
+            <mj-column>
+                <mj-social icon-size="30px" mode="horizontal">
+                    <mj-social-element name="facebook-noshare" href="#" background-color="#4c4c4c">
+                    </mj-social-element>
+                    <mj-social-element name="google-noshare" href="#" background-color="#4c4c4c">
+                    </mj-social-element>
+                    <mj-social-element  name="twitter-noshare" href="#" background-color="#4c4c4c">
+                    </mj-social-element>
+                    <mj-social-element  name="instagram" href="#" background-color="#4c4c4c">
+                    </mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 20px 0 20px">
+            <mj-column>
+                <mj-text padding="0" align="center" font-size="13px">
+                    Modern Dog 1123 Broadway, #600 New York, NY 10010
+                </mj-text>
+                <mj-text padding="10px 0 0 0" align="center" font-size="13px">
+                    info@moderndog.com | (888) 330-0781
+                </mj-text>
+                <mj-text padding="30px 0 0 0" align="center" font-size="13px" color="#797979">
+                    Copyright © 2021 Modern Dog, All rights reserved.
+                </mj-text>
+                <mj-text padding="30px 0 50px 0" align="center" font-size="13px">
+                    <a href="#" style="font-weight:700;text-decoration:underline;color:#002e67;">Unsubscribe</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+
+</mjml>
